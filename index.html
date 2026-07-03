@@ -932,263 +932,181 @@
         </div>
       </div>
     </section>
+
     <!-- ===================== ABOUT US ===================== -->
     <!-- ===================== ABOUT US ===================== -->
-    <section
-      class="relative py-16 sm:py-20 md:py-28 lg:py-32 bg-[var(--ink)] border-t border-slate-200 overflow-hidden"
-    >
-      <!-- Premium background elements -->
-      <div class="absolute inset-0 opacity-5">
-        <div
-          class="absolute inset-0"
-          style="
-            background-image:
-              linear-gradient(90deg, var(--gold) 1px, transparent 1px),
-              linear-gradient(0deg, var(--gold) 1px, transparent 1px);
-            background-size: 100px 100px;
-          "
-        ></div>
-      </div>
-
-      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-20 items-center"
-        >
-          <!-- LEFT: Image composition with synced fade slider -->
-          <div class="order-2 lg:order-1 relative">
-            <!-- Main frame -->
-            <div
-              class="relative aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-sm overflow-hidden border border-[var(--gold)]/25"
-            >
-              <img
-                id="aboutImg0"
-                src="images/empowering-image.jpg"
-                alt="Vision Alive Leadership"
-                class="about-slide absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-[1200ms] ease-in-out"
-              />
-              <img
-                id="aboutImg1"
-                src="images/iyd-22-image.jpg"
-                alt="Vision Alive Community Impact"
-                class="about-slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[1200ms] ease-in-out"
-              />
-              <!-- subtle bottom gradient so any overlaid text/badges stay legible -->
-              <div
-                class="absolute inset-0 bg-gradient-to-t from-[var(--ink)]/60 via-transparent to-transparent"
-              ></div>
-            </div>
-
-            <!-- Floating accent badge, offset outside the frame -->
-            <div
-              class="absolute -bottom-6 -right-4 sm:-right-8 bg-[var(--ink-soft)] border border-[var(--gold)]/40 rounded-sm px-6 py-5 shadow-2xl shadow-black/40 max-w-[200px]"
-            >
-              <p
-                class="font-display text-[var(--ember)] text-3xl leading-none mb-1"
-              >
-                2015
-              </p>
-              <p
-                class="text-[var(--stone)] text-[10px] tracking-widest uppercase"
-              >
-                Where the movement began
-              </p>
-            </div>
-
-            <!-- Slide indicators, tied to the feature list below -->
-            <div
-              class="flex items-center gap-2 mt-8 lg:mt-10 justify-center lg:justify-start"
-            >
-              <span
-                data-dot="0"
-                class="about-dot h-[3px] w-8 bg-[var(--ember)] transition-all duration-500"
-              ></span>
-              <span
-                data-dot="1"
-                class="about-dot h-[3px] w-8 bg-[var(--stone)]/30 transition-all duration-500"
-              ></span>
-              <span
-                data-dot="2"
-                class="about-dot h-[3px] w-8 bg-[var(--stone)]/30 transition-all duration-500"
-              ></span>
-            </div>
-          </div>
-
-          <!-- RIGHT: Content -->
-          <div class="order-1 lg:order-2">
+    <section class="py-32 bg-[#faf9f7] overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="grid lg:grid-cols-2 gap-24 items-center">
+          <!-- LEFT -->
+          <div class="relative">
             <p
-              class="eyebrow text-[11px] md:text-[13px] font-bold mb-4 sm:mb-6 tracking-widest text-[var(--gold)]"
+              class="text-sm uppercase tracking-[0.3em] text-[var(--gold)] font-semibold mb-5"
             >
-              What We Do
+              WHO WE ARE
             </p>
 
             <h2
-              class="font-display text-[var(--cream)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 md:mb-8"
+              class="font-display text-5xl lg:text-6xl leading-tight text-slate-900"
             >
-              Empowering
-              <span class="italic text-[var(--gold)]">Africans</span> For
-              <span class="block text-[var(--ember)]">Positive Change</span>
+              Creating
+              <span class="italic text-[var(--ember)]">opportunities</span>
+              that empower Africa's next generation.
             </h2>
 
-            <p
-              class="text-[var(--stone)] text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed mb-8 md:mb-10 font-light max-w-xl"
-            >
-              We are a transformative youth-led nonprofit empowering Africans
-              for lasting positive change through world-class leadership
-              development, skills training, and community impact initiatives.
-              From inspiring international conferences to grassroots movements,
-              we're cultivating a generation of changemakers equipped to build
-              thriving communities across the continent.
+            <p class="mt-8 text-lg leading-8 text-slate-600 max-w-xl">
+              Vision Alive Foundation exists to equip young Africans with the
+              leadership, skills, confidence and opportunities they need to
+              create meaningful change in their communities and beyond. We
+              believe empowered people build empowered nations.
             </p>
 
-            <!-- Key Features — auto-highlighting, synced to image slider -->
-            <div class="space-y-1 mb-10 md:mb-12" id="aboutFeatures">
-              <div
-                data-feature="0"
-                class="about-feature flex items-center gap-4 sm:gap-5 py-4 border-l-2 border-transparent pl-5 transition-all duration-500"
-              >
-                <div class="flex-shrink-0">
+            <div class="mt-14 space-y-10">
+              <!-- Item -->
+              <div class="group flex gap-6">
+                <div
+                  class="w-16 h-16 rounded-2xl bg-[var(--ember)]/10 flex items-center justify-center flex-shrink-0"
+                >
                   <svg
-                    class="w-5 h-5 sm:w-6 sm:h-6 text-[var(--ember)] transition-transform duration-500"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
+                    class="w-8 h-8 text-[var(--ember)]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M12 3v18m9-9H3"
                     />
                   </svg>
                 </div>
-                <span
-                  class="text-[var(--cream)] text-sm sm:text-base md:text-lg font-semibold"
-                  >World-Class Training Programs</span
-                >
+                <div>
+                  <h3 class="text-2xl font-display text-slate-900">
+                    Leadership Development
+                  </h3>
+                  <p class="mt-3 text-slate-600 leading-8">
+                    Developing confident leaders equipped to inspire change,
+                    build stronger institutions and influence future
+                    generations.
+                  </p>
+                </div>
               </div>
 
-              <div
-                data-feature="1"
-                class="about-feature flex items-center gap-4 sm:gap-5 py-4 border-l-2 border-transparent pl-5 transition-all duration-500"
-              >
-                <div class="flex-shrink-0">
+              <!-- Item -->
+              <div class="group flex gap-6">
+                <div
+                  class="w-16 h-16 rounded-2xl bg-[var(--gold)]/10 flex items-center justify-center flex-shrink-0"
+                >
                   <svg
-                    class="w-5 h-5 sm:w-6 sm:h-6 text-[var(--gold)] transition-transform duration-500"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
+                    class="w-8 h-8 text-[var(--gold)]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M5 12l5 5L20 7"
                     />
                   </svg>
                 </div>
-                <span
-                  class="text-[var(--cream)] text-sm sm:text-base md:text-lg font-semibold"
-                  >Measurable Community Impact</span
-                >
+                <div>
+                  <h3 class="text-2xl font-display text-slate-900">
+                    Skills & Innovation
+                  </h3>
+                  <p class="mt-3 text-slate-600 leading-8">
+                    Preparing young people with practical skills, innovation and
+                    entrepreneurial thinking for tomorrow.
+                  </p>
+                </div>
               </div>
 
-              <div
-                data-feature="2"
-                class="about-feature flex items-center gap-4 sm:gap-5 py-4 border-l-2 border-transparent pl-5 transition-all duration-500"
-              >
-                <div class="flex-shrink-0">
+              <!-- Item -->
+              <div class="group flex gap-6">
+                <div
+                  class="w-16 h-16 rounded-2xl bg-[var(--ember)]/10 flex items-center justify-center flex-shrink-0"
+                >
                   <svg
-                    class="w-5 h-5 sm:w-6 sm:h-6 text-[var(--ember)] transition-transform duration-500"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
+                    class="w-8 h-8 text-[var(--ember)]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M12 8v8m-4-4h8"
                     />
                   </svg>
                 </div>
-                <span
-                  class="text-[var(--cream)] text-sm sm:text-base md:text-lg font-semibold"
-                  >Visionary Leadership Development</span
-                >
+                <div>
+                  <h3 class="text-2xl font-display text-slate-900">
+                    Community Transformation
+                  </h3>
+                  <p class="mt-3 text-slate-600 leading-8">
+                    Creating sustainable impact by empowering communities
+                    through collaboration, innovation and purposeful action.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <!-- CTA Button -->
-
+            <!-- CTA -->
             <a
               href="#"
-              class="inline-flex items-center gap-2 btn-outline-ember px-6 sm:px-8 lg:px-10 py-3 sm:py-4 text-[11px] sm:text-[12px] font-bold tracking-[0.18em] uppercase rounded-sm hover:scale-105 transition-transform duration-300 group"
+              class="inline-flex items-center gap-3 mt-14 px-8 py-4 rounded-full bg-[var(--ember)] text-white font-semibold hover:scale-105 transition duration-300"
             >
-              <span>Learn More</span>
-              <svg
-                class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
+              Discover Our Story →
             </a>
           </div>
+          <!-- /LEFT -->
+
+          <!-- RIGHT -->
+          <div class="relative">
+            <!-- Main Image -->
+            <div class="overflow-hidden rounded-[32px] shadow-2xl">
+              <img
+                src="images/empowering-image.jpg"
+                class="w-full h-[700px] object-cover hover:scale-110 transition duration-700"
+                alt="Vision Alive Foundation"
+              />
+            </div>
+
+            <!-- Floating Card -->
+            <div
+              class="absolute -bottom-10 -left-10 bg-white rounded-3xl shadow-2xl p-8 max-w-xs border border-slate-100"
+            >
+              <p
+                class="text-sm uppercase tracking-[0.25em] text-[var(--gold)] font-semibold mb-3"
+              >
+                Since
+              </p>
+              <h2 class="font-display text-6xl text-[var(--ember)]">2015</h2>
+              <p class="mt-4 text-slate-600 leading-7">
+                A decade of empowering young Africans through leadership,
+                innovation and community development.
+              </p>
+            </div>
+
+            <!-- Floating Stats -->
+            <div
+              class="absolute top-10 -right-10 bg-slate-900 rounded-3xl p-8 text-center shadow-2xl"
+            >
+              <h2 class="font-display text-5xl text-[var(--gold)]">10+</h2>
+              <p class="uppercase tracking-[0.2em] text-xs text-slate-400 mt-3">
+                YEARS OF IMPACT
+              </p>
+            </div>
+          </div>
+          <!-- /RIGHT -->
         </div>
+        <!-- /grid lg:grid-cols-2 -->
       </div>
+      <!-- /max-w-7xl -->
     </section>
-
-    <script>
-      (function () {
-        const images = [
-          document.getElementById("aboutImg0"),
-          document.getElementById("aboutImg1"),
-        ];
-        const features = document.querySelectorAll(".about-feature");
-        const dots = document.querySelectorAll(".about-dot");
-        let active = 0;
-
-        function setActive(index) {
-          // text highlight
-          features.forEach((el) => {
-            const isActive = el.dataset.feature == index;
-            el.classList.toggle("border-[var(--ember)]", isActive);
-            el.classList.toggle("border-transparent", !isActive);
-            el.classList.toggle("bg-white/[0.03]", isActive);
-            el.querySelector("svg")?.classList.toggle("scale-125", isActive);
-          });
-
-          // dots
-          dots.forEach((dot) => {
-            const isActive = dot.dataset.dot == index;
-            dot.style.width = isActive ? "2.5rem" : "2rem";
-            dot.style.backgroundColor = isActive
-              ? "var(--ember)"
-              : "rgba(173,161,146,0.3)";
-          });
-
-          // image crossfade — 2 images mapped across 3 text states (0,1,2 -> img 0,1,0)
-          const imgIndex = index % 2;
-          images.forEach((img, i) => {
-            img.style.opacity = i === imgIndex ? "1" : "0";
-          });
-        }
-
-        setActive(0);
-        setInterval(() => {
-          active = (active + 1) % 3;
-          setActive(active);
-        }, 4000);
-
-        // optional: clicking a feature line jumps the slider straight to it
-        features.forEach((el) => {
-          el.addEventListener("click", () =>
-            setActive(parseInt(el.dataset.feature)),
-          );
-          el.style.cursor = "pointer";
-        });
-      })();
-    </script>
 
     <script>
       // Countdown Timer
