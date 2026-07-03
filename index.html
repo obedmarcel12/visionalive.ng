@@ -144,22 +144,19 @@
       </div>
     </nav>
     <!-- ===================== HERO ===================== -->
+    <!-- ===================== HERO ===================== -->
     <section
       class="relative min-h-screen flex items-center overflow-hidden bg-[var(--ink)]"
       style="
-        background-image: url(&quot;https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&h=900&fit=crop&quot;);
+        background-image: url(images/_MAT1372.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
       "
     >
-      <!-- Base color fallback — dark, not washed out -->
-      <div class="absolute inset-0 bg-[var(--ink)]" style="opacity: 0.2"></div>
-
-      <!-- Premium iris glow effect -->
-      <div class="absolute inset-0 iris-glow" style="opacity: 0.10"></div>
-
-      <!-- Gradient — dark from the top now, darker at bottom -->
+      <!-- Base dark layer -->
+      <div class="absolute inset-0 bg-[var(--ink)]" style="opacity: 0.1"></div>
+      <div class="absolute inset-0 iris-glow" style="opacity: 0.3"></div>
       <div
         class="absolute inset-0"
         style="
@@ -167,167 +164,254 @@
             180deg,
             rgba(18, 14, 12, 0.35) 0%,
             rgba(14, 12, 12, 0.45) 45%,
-            rgba(12, 11, 11, 0.75) 100%
+            rgba(12, 11, 11, 0.78) 100%
           );
         "
       ></div>
 
       <div
-        class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-24 sm:pt-32 md:pt-40 pb-16 sm:pb-20 md:pb-24 flex flex-col justify-center min-h-[calc(100vh-96px)]"
+        class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-28 sm:pt-32 md:pt-40 pb-20 w-full"
       >
-        <div class="max-w-7xl">
-          <p
-            class="hero-fade hero-fade-1 eyebrow text-[10px] md:text-[14px] font-bold mb-6 sm:mb-6 md:mb-5 tracking-widest text-[var(--gold)]"
-            style="text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6)"
-          >
-            CULTIVATING VISIONARY LEADERS ACROSS AFRICA SINCE 2015
-          </p>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-end">
+          <!-- LEFT: Statement + copy + CTAs -->
+          <div class="lg:col-span-7">
+            <div class="hero-fade hero-fade-1 flex items-center gap-3 mb-6">
+              <span class="w-8 h-px bg-[var(--gold)]"></span>
+              <p
+                class="eyebrow text-[10px] md:text-[14px] font-bold tracking-widest text-[var(--gold)]"
+                style="text-shadow: 0 2px 12px rgba(0, 0, 0, 0.2)"
+              >
+                A PAN-AFRICAN MOVEMENT · BUILDING SINCE 2015
+              </p>
+            </div>
 
-          <h1
-            class="hero-fade hero-fade-2 font-display text-[#F7F1E6] text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-tight mb-4 sm:mb-6 md:mb-8"
-            style="
-              text-shadow:
-                0 4px 24px rgba(0, 0, 0, 0.55),
-                0 2px 8px rgba(0, 0, 0, 0.4);
-            "
-          >
-            We are Vision<br />
-            <span class="italic text-[var(--ember)]">Alive</span> Foundation
-          </h1>
-
-          <p
-            class="hero-fade hero-fade-3 text-[#E8E2D6] text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed mb-6 sm:mb-8 md:mb-12 max-w-3xl font-light"
-            style="text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7)"
-          >
-            A youth-led nonprofit empowering Africans for positive change
-            through leadership development, skills training, and community
-            impact.
-          </p>
-
-          <div
-            class="hero-fade hero-fade-4 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4"
-          >
-            <!-- PRIMARY: magnetic fill-slide -->
-
-            <a
-              href="#"
-              class="hero-btn-primary relative inline-flex items-center justify-center gap-2 px-7 sm:px-9 py-3 sm:py-4 text-[11px] sm:text-[12px] font-bold tracking-[0.18em] uppercase rounded-sm overflow-hidden group"
+            <h1
+              class="hero-fade hero-fade-2 font-display text-[#F7F1E6] text-4xl xs:text-5xl sm:text-6xl md:text-7xl xl:text-7xl leading-[1.05] mb-6 sm:mb-8"
+              style="
+                text-shadow:
+                  0 4px 24px rgba(0, 0, 0, 0.55),
+                  0 2px 8px rgba(0, 0, 0, 0.4);
+              "
             >
-              <span
-                class="relative z-10 text-[#F7F1E6] transition-transform duration-300 group-hover:-translate-y-0.5"
-                >Begin Your Evolution</span
-              >
-              <svg
-                class="relative z-10 w-4 h-4 text-[#F7F1E6] transition-all duration-300 group-hover:translate-x-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
+              Empowering the leaders<br />
+              Africa
+              <span class="italic text-[var(--ember)]">already has.</span>
+            </h1>
 
-              <!-- Shine sweep on hover -->
-              <span
-                class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-[900ms] ease-in-out"
-                style="
-                  background: linear-gradient(
-                    115deg,
-                    transparent 30%,
-                    rgba(255, 255, 255, 0.35) 50%,
-                    transparent 70%
-                  );
-                "
-              ></span>
-            </a>
-
-            <style>
-              .hero-btn-primary {
-                background: linear-gradient(
-                  120deg,
-                  var(--ember) 0%,
-                  #ff6b3d 45%,
-                  var(--gold) 100%
-                );
-                background-size: 220% 220%;
-                animation: gradientShift 6s ease infinite;
-                box-shadow:
-                  0 10px 30px -8px rgba(226, 67, 40, 0.65),
-                  0 0 0 1px rgba(255, 255, 255, 0.08) inset;
-                transition:
-                  box-shadow 0.3s ease,
-                  transform 0.3s ease;
-              }
-              .hero-btn-primary:hover {
-                transform: translateY(-2px) scale(1.02);
-                box-shadow:
-                  0 16px 40px -8px rgba(226, 67, 40, 0.8),
-                  0 0 0 1px rgba(255, 255, 255, 0.15) inset;
-              }
-
-              @keyframes gradientShift {
-                0% {
-                  background-position: 0% 50%;
-                }
-                50% {
-                  background-position: 100% 50%;
-                }
-                100% {
-                  background-position: 0% 50%;
-                }
-              }
-            </style>
-
-            <!-- SECONDARY: glass outline -->
-
-            <a
-              href="#"
-              class="hero-btn-secondary inline-flex items-center justify-center gap-2 px-7 sm:px-9 py-3 sm:py-4 text-[11px] sm:text-[12px] font-bold tracking-[0.18em] uppercase rounded-sm backdrop-blur-sm transition-all duration-300"
+            <p
+              class="hero-fade hero-fade-3 text-[#E8E2D6] text-sm sm:text-base md:text-lg leading-relaxed mb-10 max-w-lg font-light"
+              style="text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7)"
             >
-              Become a Partner
-              <svg
-                class="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+              We're Vision Alive — the foundation giving young Africans the room
+              to rise. Leadership intensives, grassroots initiatives, and the
+              networks to lead now, not someday.
+            </p>
+
+            <div
+              class="hero-fade hero-fade-4 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4"
+            >
+              <!-- PRIMARY -->
+
+              <a
+                href="#"
+                class="hero-btn-primary relative inline-flex items-center justify-center gap-2 px-8 sm:px-10 py-4 text-[11px] sm:text-[12px] font-bold tracking-[0.18em] uppercase rounded-sm overflow-hidden group"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </a>
+                <span
+                  class="relative z-10 text-[#F7F1E6] transition-transform duration-300 group-hover:-translate-y-0.5"
+                  >Begin Your Evolution</span
+                >
+                <svg
+                  class="relative z-10 w-4 h-4 text-[#F7F1E6] transition-all duration-300 group-hover:translate-x-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+                <span
+                  class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-[900ms] ease-in-out"
+                  style="
+                    background: linear-gradient(
+                      115deg,
+                      transparent 30%,
+                      rgba(255, 255, 255, 0.35) 50%,
+                      transparent 70%
+                    );
+                  "
+                ></span>
+              </a>
+
+              <!-- SECONDARY -->
+
+              <a
+                href="#"
+                class="hero-btn-secondary inline-flex items-center justify-center gap-2 px-8 sm:px-10 py-4 text-[11px] sm:text-[12px] font-bold tracking-[0.18em] uppercase rounded-sm backdrop-blur-sm transition-all duration-300"
+              >
+                Become a Partner
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: Floating credibility panel -->
+          <div class="hero-fade hero-fade-5 lg:col-span-5">
+            <div
+              class="relative ml-auto max-w-sm bg-white/[0.06] backdrop-blur-md border border-white/15 rounded-sm px-8 py-9 shadow-2xl shadow-black/40"
+            >
+              <div
+                class="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-[var(--gold)]"
+              ></div>
+              <div
+                class="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-[var(--gold)]"
+              ></div>
+
+              <!-- Quote mark accent -->
+              <span
+                class="font-display italic text-[var(--ember)] text-5xl leading-none opacity-60 block mb-2"
+                >"</span
+              >
+
+              <p
+                class="font-display italic text-[#F7F1E6] text-lg sm:text-xl leading-snug mb-8 -mt-4"
+                style="text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5)"
+              >
+                Vision Alive didn't just train me. It handed me a room to lead
+                in.
+              </p>
+
+              <div class="space-y-5 pt-6 border-t border-white/15">
+                <div class="flex items-start gap-4">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--gold)] mt-2 flex-shrink-0"
+                  ></span>
+                  <p class="text-[#E8E2D6] text-sm leading-relaxed">
+                    <span class="text-[var(--gold)] font-semibold"
+                      >Mentorship</span
+                    >
+                    that meets young leaders where they are.
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--gold)] mt-2 flex-shrink-0"
+                  ></span>
+                  <p class="text-[#E8E2D6] text-sm leading-relaxed">
+                    <span class="text-[var(--gold)] font-semibold"
+                      >Community</span
+                    >
+                    built across borders, not confined to one city.
+                  </p>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <span
+                    class="w-1.5 h-1.5 rounded-full bg-[var(--gold)] mt-2 flex-shrink-0"
+                  ></span>
+                  <p class="text-[#E8E2D6] text-sm leading-relaxed">
+                    <span class="text-[var(--gold)] font-semibold"
+                      >Opportunity</span
+                    >
+                    turned into something you can actually walk into.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- scroll cue -->
+      <!-- scroll cue — rotating ring badge instead of a plain line -->
       <div
-        class="absolute bottom-6 sm:bottom-8 md:bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-[#E8E2D6]"
+        class="absolute bottom-8 right-6 sm:right-10 z-10 hidden sm:flex items-center justify-center"
       >
-        <span
-          class="text-[9px] tracking-[0.3em]"
-          style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6)"
-          >SCROLL</span
+        <svg class="scroll-ring w-16 h-16" viewBox="0 0 64 64">
+          <circle
+            cx="32"
+            cy="32"
+            r="30"
+            fill="none"
+            stroke="rgba(247,241,230,0.25)"
+            stroke-width="1"
+          />
+          <circle
+            cx="32"
+            cy="32"
+            r="30"
+            fill="none"
+            stroke="var(--gold)"
+            stroke-width="1"
+            stroke-dasharray="8 12"
+          />
+        </svg>
+        <svg
+          class="absolute w-4 h-4 text-[#F7F1E6] animate-bounce"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
         >
-        <div
-          class="w-px h-10 bg-gradient-to-b from-[var(--gold)] to-transparent"
-        ></div>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
       </div>
     </section>
 
     <style>
       .hero-btn-primary {
-        border: 1px solid var(--ember);
-        color: var(--ember);
-        box-shadow: 0 8px 24px -8px rgba(226, 67, 40, 0.4);
+        background: linear-gradient(
+          120deg,
+          var(--ember) 0%,
+          #ff6b3d 45%,
+          var(--gold) 100%
+        );
+        background-size: 220% 220%;
+        animation: gradientShift 6s ease infinite;
+        box-shadow:
+          0 10px 30px -8px rgba(226, 67, 40, 0.65),
+          0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+        transition:
+          box-shadow 0.3s ease,
+          transform 0.3s ease;
       }
+      .hero-btn-primary:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow:
+          0 16px 40px -8px rgba(226, 67, 40, 0.8),
+          0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+      }
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
       .hero-btn-secondary {
         border: 1px solid rgba(247, 241, 230, 0.35);
         color: #f7f1e6;
@@ -339,7 +423,6 @@
         background: rgba(247, 241, 230, 0.12);
       }
 
-      /* Staggered entrance — each line rises and fades in after the last */
       @keyframes heroRise {
         from {
           opacity: 0;
@@ -366,144 +449,251 @@
       .hero-fade-4 {
         animation-delay: 0.68s;
       }
+      .hero-fade-5 {
+        animation-delay: 0.85s;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .scroll-ring {
+        animation: spin 18s linear infinite;
+      }
     </style>
 
-    <!-- ===================== KEY PILLARS ===================== -->
-    <section class="bg-[var(--ink-soft)] py-24 border-y border-slate-200">
+    <!-- ===================== IMPACT AREAS ===================== -->
+    <section class="py-28 bg-white">
       <div class="max-w-7xl mx-auto px-6 lg:px-10">
-        <!-- Section Header -->
-        <div class="text-center mb-16">
-          <p class="eyebrow text-[12px] font-bold mb-4 tracking-widest">
-            OUR IMPACT PILLARS
-          </p>
-          <h2
-            class="font-display text-[var(--cream)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight"
-          >
-            Driving Sustainable
-            <span class="italic text-[var(--ember)]">Change</span>
-          </h2>
-          <div
-            class="w-20 h-1 bg-gradient-to-r from-[var(--ember)] to-[var(--gold)] mx-auto mt-6"
-          ></div>
+        <!-- Header -->
+        <div class="grid lg:grid-cols-2 gap-16 items-end mb-20">
+          <div>
+            <p
+              class="text-sm uppercase tracking-[0.25em] text-[var(--gold)] font-semibold mb-5"
+            >
+              OUR IMPACT
+            </p>
+
+            <h2
+              class="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight text-slate-900"
+            >
+              Empowering Africa
+              <span class="italic text-[var(--ember)]">
+                through leadership,
+              </span>
+              innovation and opportunity.
+            </h2>
+          </div>
+
+          <div>
+            <p class="text-lg leading-8 text-slate-600">
+              At Vision Alive Foundation, we believe lasting transformation
+              begins when young people are empowered with the right
+              opportunities, practical skills, and a community that believes in
+              their potential. Every initiative we lead is designed to create
+              measurable impact that lasts beyond today.
+            </p>
+          </div>
         </div>
 
-        <!-- Four Pillars Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <!-- Pillar 1: Leadership Development -->
+        <!-- Cards -->
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Card 1 -->
           <div
-            class="group relative bg-gradient-to-br from-[var(--ink)]/80 to-[var(--ink-soft)] border border-[var(--gold)]/30 hover:border-[var(--ember)]/60 p-6 md:p-8 rounded-sm transition-all duration-300 overflow-hidden hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[var(--ember)]/20"
+            class="group rounded-3xl border border-slate-200 bg-white p-10 hover:border-[var(--ember)] hover:-translate-y-2 hover:shadow-2xl transition-all duration-500"
           >
             <div
-              class="absolute inset-0 bg-gradient-to-br from-[var(--ember)]/0 to-[var(--ember)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            ></div>
-            <div class="relative z-10">
-              <div
-                class="w-14 h-14 rounded-full bg-[var(--ember)] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 rounded-2xl bg-[var(--ember)]/10 flex items-center justify-center mb-8"
+            >
+              <svg
+                class="w-8 h-8 text-[var(--ember)]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <span
-                  class="text-[var(--cream)] font-display text-2xl font-bold"
-                  >01</span
-                >
-              </div>
-              <h3
-                class="font-display text-[var(--cream)] text-lg sm:text-xl md:text-2xl mb-3 leading-tight"
-              >
-                Leadership
-                <span class="italic text-[var(--gold)]">Development</span>
-              </h3>
-              <p class="text-[var(--stone)] text-xs sm:text-sm leading-relaxed">
-                Cultivating visionary leaders who shape the future of African
-                communities through mentorship and strategic growth.
-              </p>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  d="M12 2v16m0 0l-4-4m4 4l4-4"
+                />
+
+                <circle cx="12" cy="20" r="2" fill="currentColor" />
+              </svg>
+            </div>
+
+            <h3 class="font-display text-3xl text-slate-900 mb-5">
+              Leadership &
+              <span class="italic text-[var(--ember)]"> Empowerment </span>
+            </h3>
+
+            <p class="text-slate-600 leading-8">
+              We equip emerging leaders with mentorship, leadership training,
+              personal development, and practical experiences that prepare them
+              to create lasting change across Africa.
+            </p>
+
+            <div
+              class="mt-8 flex items-center gap-3 text-[var(--ember)] font-semibold group-hover:gap-5 transition-all"
+            >
+              Learn More →
             </div>
           </div>
 
-          <!-- Pillar 2: Youth Employability Support -->
+          <!-- Card 2 -->
           <div
-            class="group relative bg-gradient-to-br from-[var(--ink)]/80 to-[var(--ink-soft)] border border-[var(--gold)]/30 hover:border-[var(--ember)]/60 p-6 md:p-8 rounded-sm transition-all duration-300 overflow-hidden hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[var(--ember)]/20"
+            class="group rounded-3xl border border-slate-200 bg-white p-10 hover:border-[var(--gold)] hover:-translate-y-2 hover:shadow-2xl transition-all duration-500"
           >
             <div
-              class="absolute inset-0 bg-gradient-to-br from-[var(--ember)]/0 to-[var(--ember)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            ></div>
-            <div class="relative z-10">
-              <div
-                class="w-14 h-14 rounded-full bg-[var(--ember)] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 rounded-2xl bg-[var(--gold)]/10 flex items-center justify-center mb-8"
+            >
+              <svg
+                class="w-8 h-8 text-[var(--gold)]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <span
-                  class="text-[var(--cream)] font-display text-2xl font-bold"
-                  >02</span
-                >
-              </div>
-              <h3
-                class="font-display text-[var(--cream)] text-lg sm:text-xl md:text-2xl mb-3 leading-tight"
-              >
-                Youth
-                <span class="italic text-[var(--gold)]">Employability</span>
-              </h3>
-              <p class="text-[var(--stone)] text-xs sm:text-sm leading-relaxed">
-                Building skills and opening pathways to meaningful employment
-                opportunities across the continent.
-              </p>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  d="M12 6v12M6 12h12"
+                />
+              </svg>
+            </div>
+
+            <h3 class="font-display text-3xl text-slate-900 mb-5">
+              Education &
+              <span class="italic text-[var(--gold)]"> Innovation </span>
+            </h3>
+
+            <p class="text-slate-600 leading-8">
+              Through education, technology, and innovative learning
+              experiences, we prepare young Africans with the knowledge and
+              confidence needed for tomorrow's opportunities.
+            </p>
+
+            <div
+              class="mt-8 flex items-center gap-3 text-[var(--gold)] font-semibold group-hover:gap-5 transition-all"
+            >
+              Learn More →
             </div>
           </div>
 
-          <!-- Pillar 3: Sustainable Practices -->
+          <!-- Card 3 -->
           <div
-            class="group relative bg-gradient-to-br from-[var(--ink)]/80 to-[var(--ink-soft)] border border-[var(--gold)]/30 hover:border-[var(--ember)]/60 p-6 md:p-8 rounded-sm transition-all duration-300 overflow-hidden hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[var(--ember)]/20"
+            class="group rounded-3xl border border-slate-200 bg-white p-10 hover:border-[var(--ember)] hover:-translate-y-2 hover:shadow-2xl transition-all duration-500"
           >
             <div
-              class="absolute inset-0 bg-gradient-to-br from-[var(--ember)]/0 to-[var(--ember)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            ></div>
-            <div class="relative z-10">
-              <div
-                class="w-14 h-14 rounded-full bg-[var(--ember)] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 rounded-2xl bg-[var(--ember)]/10 flex items-center justify-center mb-8"
+            >
+              <svg
+                class="w-8 h-8 text-[var(--ember)]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <span
-                  class="text-[var(--cream)] font-display text-2xl font-bold"
-                  >03</span
-                >
-              </div>
-              <h3
-                class="font-display text-[var(--cream)] text-lg sm:text-xl md:text-2xl mb-3 leading-tight"
-              >
-                Sustainable
-                <span class="italic text-[var(--gold)]">Practices</span>
-              </h3>
-              <p class="text-[var(--stone)] text-xs sm:text-sm leading-relaxed">
-                Embedding environmental and social responsibility in every
-                initiative for lasting impact.
-              </p>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  d="M4 18l5-5 4 4 7-8"
+                />
+              </svg>
+            </div>
+
+            <h3 class="font-display text-3xl text-slate-900 mb-5">
+              Entrepreneurship &
+              <span class="italic text-[var(--ember)]"> Employability </span>
+            </h3>
+
+            <p class="text-slate-600 leading-8">
+              We bridge the gap between ambition and opportunity by equipping
+              young people with entrepreneurial skills, career readiness, and
+              access to meaningful employment pathways.
+            </p>
+
+            <div
+              class="mt-8 flex items-center gap-3 text-[var(--ember)] font-semibold group-hover:gap-5 transition-all"
+            >
+              Learn More →
             </div>
           </div>
 
-          <!-- Pillar 4: Community Development -->
+          <!-- Card 4 -->
           <div
-            class="group relative bg-gradient-to-br from-[var(--ink)]/80 to-[var(--ink-soft)] border border-[var(--gold)]/30 hover:border-[var(--ember)]/60 p-6 md:p-8 rounded-sm transition-all duration-300 overflow-hidden hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[var(--ember)]/20"
+            class="group rounded-3xl border border-slate-200 bg-white p-10 hover:border-[var(--gold)] hover:-translate-y-2 hover:shadow-2xl transition-all duration-500"
           >
             <div
-              class="absolute inset-0 bg-gradient-to-br from-[var(--ember)]/0 to-[var(--ember)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            ></div>
-            <div class="relative z-10">
-              <div
-                class="w-14 h-14 rounded-full bg-[var(--ember)] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+              class="w-16 h-16 rounded-2xl bg-[var(--gold)]/10 flex items-center justify-center mb-8"
+            >
+              <svg
+                class="w-8 h-8 text-[var(--gold)]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <span
-                  class="text-[var(--cream)] font-display text-2xl font-bold"
-                  >04</span
-                >
-              </div>
-              <h3
-                class="font-display text-[var(--cream)] text-lg sm:text-xl md:text-2xl mb-3 leading-tight"
-              >
-                Community
-                <span class="italic text-[var(--gold)]">Development</span>
-              </h3>
-              <p class="text-[var(--stone)] text-xs sm:text-sm leading-relaxed">
-                Strengthening social bonds and building thriving communities
-                rooted in shared vision and values.
-              </p>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  d="M17 20h5V4H2v16h5m10 0v-4a3 3 0 00-6 0v4m6 0H11"
+                />
+              </svg>
+            </div>
+
+            <h3 class="font-display text-3xl text-slate-900 mb-5">
+              Community
+              <span class="italic text-[var(--gold)]"> Development </span>
+            </h3>
+
+            <p class="text-slate-600 leading-8">
+              Sustainable change happens when communities thrive together. We
+              build partnerships, strengthen local capacity, and create
+              initiatives that improve lives for generations.
+            </p>
+
+            <div
+              class="mt-8 flex items-center gap-3 text-[var(--gold)] font-semibold group-hover:gap-5 transition-all"
+            >
+              Learn More →
             </div>
           </div>
+        </div>
+
+        <!-- Bottom Statement -->
+        <div
+          class="mt-24 rounded-3xl bg-gradient-to-r from-[var(--ember)] to-[#c73922] px-10 py-16 text-center"
+        >
+          <p
+            class="text-sm uppercase tracking-[0.3em] text-white/80 font-semibold mb-5"
+          >
+            OUR COMMITMENT
+          </p>
+
+          <h3
+            class="font-display text-3xl md:text-5xl text-white leading-tight max-w-4xl mx-auto"
+          >
+            Empowering people.
+            <span class="italic text-[#FFD89B]">
+              Transforming communities.
+            </span>
+            Building Africa's future.
+          </h3>
+
+          <p class="mt-8 text-white/85 max-w-3xl mx-auto leading-8 text-lg">
+            Every programme, every partnership, and every initiative is driven
+            by one purpose—to empower the next generation of African leaders to
+            create sustainable impact where it matters most.
+          </p>
+
+          <a
+            href="#"
+            class="inline-flex items-center mt-10 px-8 py-4 rounded-full bg-white text-[var(--ember)] font-semibold hover:scale-105 transition duration-300"
+          >
+            Explore Our Programmes →
+          </a>
         </div>
       </div>
     </section>
