@@ -1,10 +1,10 @@
 :root {
-  --ink: #120e0c; /* deep espresso-black, warm not cold  */
-  --ink-soft: #1c1613;
+  --ink: #ffffff; /* deep espresso-black, warm not cold  */
+  --ink-soft: #f8fafc;
   --ember: #e24328; /* primary accent — the "Alive" in Vision Alive */
   --gold: #cb9b51; /* metallic rule / hover accent */
-  --cream: #f7f1e6; /* primary light text */
-  --stone: #ada192; /* muted secondary text */
+  --cream: #111827; /* primary light text */
+  --stone: #6b7280; /* muted secondary text */
 }
 
 * {
@@ -15,7 +15,8 @@
 }
 
 body {
-  background: var(--ink);
+  background: #fff;
+  color: var(--cream);
 }
 
 /* Aperture-focus hover: a gold rule draws in from both edges toward center */
@@ -52,6 +53,7 @@ body {
   background: var(--ember);
   padding: 0.5rem 1.25rem;
   border-radius: 9999px;
+  color: white !important;
   transition: all 0.3s ease;
 }
 .nav-link.is-active::before,
@@ -60,44 +62,37 @@ body {
   background: transparent;
 }
 
-/* Donate button — restrained gradient, not a candy pill */
 .btn-donate {
-  background: linear-gradient(135deg, var(--ember) 0%, #b8331e 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.7rem 1.25rem;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  border-radius: 9999px;
+
+  background: linear-gradient(135deg, var(--ember), #b8331e);
+
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.08) inset,
-    0 8px 20px -8px rgba(226, 67, 40, 0.55);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+    0 8px 20px -8px rgba(226, 67, 40, 0.45);
+
+  transition: all 0.35s ease;
 }
+
 .btn-donate:hover {
-  transform: translateY(-1px);
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.12) inset,
-    0 12px 26px -8px rgba(226, 67, 40, 0.7);
-}
+  transform: translateY(-2px);
 
-.btn-outline {
-  border: 1px solid rgba(247, 241, 230, 0.35);
-  transition:
-    border-color 0.25s ease,
-    background-color 0.25s ease;
-}
-.btn-outline:hover {
-  border-color: var(--gold);
-  background: rgba(203, 155, 81, 0.08);
-}
+  box-shadow: 0 12px 30px -10px rgba(226, 67, 40, 0.55);
 
-.btn-outline-ember {
-  border: 1px solid var(--ember);
-  color: var(--ember);
-  transition:
-    background-color 0.25s ease,
-    color 0.25s ease;
-}
-.btn-outline-ember:hover {
-  background: var(--ember);
-  color: var(--cream);
+  filter: brightness(1.03);
 }
 
 /* Signature element: soft iris/aperture glow behind the headline */
@@ -117,5 +112,7 @@ body {
 }
 
 header.scrolled {
-  background: rgba(18, 14, 12, 0.92);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e5e7eb;
 }
