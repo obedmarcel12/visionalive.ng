@@ -1981,5 +1981,1199 @@
         box-shadow: 0 35px 70px rgba(0, 0, 0, 0.15);
       }
     </style>
+
+    <!-- ===================== WHY US ===================== -->
+    <section
+      class="relative py-24 md:py-32 overflow-hidden"
+      style="
+        background: linear-gradient(
+          180deg,
+          #f7f2ec 0%,
+          #f0e4d8 55%,
+          #ede0d2 100%
+        );
+      "
+    >
+      <!-- Soft top seam: fades from the white section above instead of a hard cut -->
+      <div
+        class="absolute top-0 left-0 right-0 h-24 pointer-events-none"
+        style="
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.9),
+            transparent
+          );
+        "
+      ></div>
+
+      <!-- Ambient glow: ember, top right (existing) -->
+      <div
+        class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
+        style="
+          background: radial-gradient(
+            circle,
+            rgba(226, 67, 40, 0.08),
+            transparent 70%
+          );
+        "
+      ></div>
+
+      <!-- Ambient glow: gold, bottom left (new — balances the composition) -->
+      <div
+        class="absolute bottom-0 left-0 w-[460px] h-[460px] rounded-full pointer-events-none"
+        style="
+          background: radial-gradient(
+            circle,
+            rgba(184, 134, 63, 0.1),
+            transparent 70%
+          );
+        "
+      ></div>
+
+      <!-- Fine grain texture for tactility -->
+      <div
+        class="absolute inset-0 pointer-events-none"
+        style="
+          opacity: 0.4;
+          mix-blend-mode: multiply;
+          background-image: url(&quot;data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%222%22 stitchTiles=%22stitch%22/></filter><rect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22 opacity=%220.05%22/></svg>&quot;);
+        "
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-6 lg:px-10 relative">
+        <div class="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+          <!-- LEFT: Header + animated feature list -->
+          <div>
+            <p
+              class="reveal-item text-[11px] font-bold tracking-[0.3em] uppercase mb-5"
+              style="color: #b8863f"
+            >
+              The Vision Alive Difference
+            </p>
+
+            <h2
+              class="reveal-item font-display text-3xl sm:text-4xl md:text-5xl leading-tight mb-14"
+              style="color: #1a1512"
+            >
+              Why people
+              <span class="italic" style="color: #e24328">trust us</span> with
+              their future.
+            </h2>
+
+            <div class="space-y-0">
+              <!-- Feature 01 -->
+              <div
+                class="reveal-item feature-row group relative py-7 border-t"
+                style="border-color: rgba(26, 21, 18, 0.1)"
+              >
+                <div class="flex items-start gap-6">
+                  <span
+                    class="font-display italic text-2xl flex-shrink-0 pt-1 transition-colors duration-500 group-hover:text-[#E24328]"
+                    style="color: rgba(26, 21, 18, 0.2)"
+                    >01</span
+                  >
+                  <div>
+                    <h3
+                      class="font-display text-xl md:text-2xl mb-2 font-medium"
+                      style="color: #1a1512"
+                    >
+                      Real experience, not theory
+                    </h3>
+                    <p
+                      class="text-sm md:text-base leading-relaxed"
+                      style="color: #6b6259"
+                    >
+                      Years spent actually building programs on the ground — not
+                      workshops designed in a boardroom and never tested.
+                    </p>
+                  </div>
+                </div>
+                <span
+                  class="feature-bar absolute bottom-0 left-0 h-[2px] w-0 transition-all duration-700 ease-out"
+                  style="background: #e24328"
+                ></span>
+              </div>
+
+              <!-- Feature 02 -->
+              <div
+                class="reveal-item feature-row group relative py-7 border-t"
+                style="border-color: rgba(26, 21, 18, 0.1)"
+              >
+                <div class="flex items-start gap-6">
+                  <span
+                    class="font-display italic text-2xl flex-shrink-0 pt-1 transition-colors duration-500 group-hover:text-[#E24328]"
+                    style="color: rgba(26, 21, 18, 0.2)"
+                    >02</span
+                  >
+                  <div>
+                    <h3
+                      class="font-display text-xl md:text-2xl mb-2 font-medium"
+                      style="color: #1a1512"
+                    >
+                      People before paperwork
+                    </h3>
+                    <p
+                      class="text-sm md:text-base leading-relaxed"
+                      style="color: #6b6259"
+                    >
+                      Every program is built around the person in front of us,
+                      not a template that gets copy-pasted across communities.
+                    </p>
+                  </div>
+                </div>
+                <span
+                  class="feature-bar absolute bottom-0 left-0 h-[2px] w-0 transition-all duration-700 ease-out"
+                  style="background: #e24328"
+                ></span>
+              </div>
+
+              <!-- Feature 03 -->
+              <div
+                class="reveal-item feature-row group relative py-7 border-t border-b"
+                style="border-color: rgba(26, 21, 18, 0.1)"
+              >
+                <div class="flex items-start gap-6">
+                  <span
+                    class="font-display italic text-2xl flex-shrink-0 pt-1 transition-colors duration-500 group-hover:text-[#E24328]"
+                    style="color: rgba(26, 21, 18, 0.2)"
+                    >03</span
+                  >
+                  <div>
+                    <h3
+                      class="font-display text-xl md:text-2xl mb-2 font-medium"
+                      style="color: #1a1512"
+                    >
+                      Leadership as the whole point
+                    </h3>
+                    <p
+                      class="text-sm md:text-base leading-relaxed"
+                      style="color: #6b6259"
+                    >
+                      We're not building a program that ends. We're building
+                      leaders who keep the work going long after we've moved on.
+                    </p>
+                  </div>
+                </div>
+                <span
+                  class="feature-bar absolute bottom-0 left-0 h-[2px] w-0 transition-all duration-700 ease-out"
+                  style="background: #e24328"
+                ></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Image with floating stat badge -->
+          <div class="reveal-item relative">
+            <div
+              class="relative rounded-[28px] overflow-hidden"
+              style="
+                border: 1px solid rgba(26, 21, 18, 0.08);
+                box-shadow: 0 30px 60px -20px rgba(26, 21, 18, 0.18);
+              "
+            >
+              <img
+                src="images/_MAT1372.jpg"
+                alt="Vision Alive team at International Youth Day"
+                class="w-full h-[480px] md:h-[560px] object-cover transition-transform duration-[1200ms] ease-out"
+                id="whyUsImage"
+              />
+              <div
+                class="absolute inset-0"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    transparent 60%,
+                    rgba(26, 21, 18, 0.35) 100%
+                  );
+                "
+              ></div>
+            </div>
+
+            <!-- Floating badge -->
+            <div
+              class="absolute -bottom-8 -left-6 sm:-left-10 bg-white rounded-[20px] p-6 sm:p-7 max-w-[220px]"
+              style="
+                border: 1px solid rgba(26, 21, 18, 0.08);
+                box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.15);
+              "
+            >
+              <p
+                class="font-display italic text-3xl leading-none mb-2"
+                style="color: #e24328"
+              >
+                2015
+              </p>
+              <p
+                class="text-[10px] uppercase tracking-widest font-semibold"
+                style="color: #6b6259"
+              >
+                The year we decided waiting wasn't an option
+              </p>
+            </div>
+
+            <!-- Small floating accent dot -->
+            <div
+              class="absolute -top-4 -right-4 w-16 h-16 rounded-full"
+              style="background: #b8863f; opacity: 0.14"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .reveal-item {
+        opacity: 0;
+        transform: translateY(28px);
+        transition:
+          opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+          transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .reveal-item.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .feature-row:hover .feature-bar {
+        width: 100%;
+      }
+      #whyUsImage:hover {
+        transform: scale(1.05);
+      }
+    </style>
+
+    <script>
+      (function () {
+        const items = document.querySelectorAll(".reveal-item");
+        items.forEach((el, i) => {
+          el.style.transitionDelay = `${i * 90}ms`;
+        });
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15 },
+        );
+        items.forEach((el) => observer.observe(el));
+      })();
+    </script>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section
+      class="relative py-28 md:py-36 overflow-hidden"
+      style="background: #1a1512"
+      id="testimonials"
+    >
+      <!-- Ambient glows -->
+      <div
+        class="absolute top-0 left-1/4 w-[480px] h-[480px] rounded-full pointer-events-none"
+        style="
+          background: radial-gradient(
+            circle,
+            rgba(226, 67, 40, 0.08),
+            transparent 70%
+          );
+        "
+      ></div>
+      <div
+        class="absolute bottom-0 right-1/4 w-[420px] h-[420px] rounded-full pointer-events-none"
+        style="
+          background: radial-gradient(
+            circle,
+            rgba(184, 134, 63, 0.07),
+            transparent 70%
+          );
+        "
+      ></div>
+
+      <div class="max-w-5xl mx-auto px-6 lg:px-10 relative">
+        <!-- Header -->
+        <div class="mb-16 md:mb-20">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="h-px w-10" style="background: #d9a24b"></span>
+            <p
+              class="text-[11px] font-bold tracking-[0.3em] uppercase"
+              style="color: #d9a24b"
+            >
+              In Their Words
+            </p>
+          </div>
+          <h2
+            class="font-display text-3xl sm:text-4xl md:text-5xl leading-tight max-w-2xl"
+            style="color: #f3ece0"
+          >
+            Stories that carry more weight
+            <span class="italic" style="color: #e24328"
+              >than we ever could.</span
+            >
+          </h2>
+        </div>
+
+        <!-- Quote Frame — squared, bracketed corners -->
+        <div
+          class="relative p-10 md:p-16 min-h-[340px] md:min-h-[280px]"
+          style="
+            background: rgba(243, 236, 224, 0.03);
+            border: 1px solid rgba(243, 236, 224, 0.14);
+          "
+        >
+          <!-- Corner brackets -->
+          <span
+            class="absolute -top-px -left-px w-6 h-6 border-t-2 border-l-2"
+            style="border-color: #e24328"
+          ></span>
+          <span
+            class="absolute -top-px -right-px w-6 h-6 border-t-2 border-r-2"
+            style="border-color: #e24328"
+          ></span>
+          <span
+            class="absolute -bottom-px -left-px w-6 h-6 border-b-2 border-l-2"
+            style="border-color: #e24328"
+          ></span>
+          <span
+            class="absolute -bottom-px -right-px w-6 h-6 border-b-2 border-r-2"
+            style="border-color: #e24328"
+          ></span>
+
+          <!-- Index counter -->
+          <div
+            class="absolute top-6 right-8 md:top-8 md:right-10 flex items-center gap-1.5 font-mono text-xs"
+            style="color: rgba(243, 236, 224, 0.35)"
+          >
+            <span id="t-index-current" style="color: #d9a24b">01</span>
+            <span>/</span>
+            <span id="t-index-total">05</span>
+          </div>
+
+          <!-- Accent bar instead of curly quote mark -->
+          <span
+            class="absolute top-10 left-10 md:top-14 md:left-16 w-1 h-14 md:h-16"
+            style="background: #e24328"
+          ></span>
+
+          <div
+            class="relative min-h-[220px] md:min-h-[180px] flex items-center justify-center pl-6 md:pl-10"
+            id="quote-stage"
+          >
+            <!-- Slides injected by JS -->
+          </div>
+
+          <!-- Nav arrows — square, not circular -->
+          <button
+            id="t-prev"
+            aria-label="Previous testimonial"
+            class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 w-12 h-12 items-center justify-center transition-all duration-300"
+            style="border: 1px solid rgba(243, 236, 224, 0.2); color: #f3ece0"
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path
+                d="M11 3 L5 9 L11 15"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <button
+            id="t-next"
+            aria-label="Next testimonial"
+            class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 w-12 h-12 items-center justify-center transition-all duration-300"
+            style="border: 1px solid rgba(243, 236, 224, 0.2); color: #f3ece0"
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path
+                d="M7 3 L13 9 L7 15"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Thumbnail rail — square frames, not circles -->
+        <div
+          class="mt-12 flex items-center justify-center gap-3 md:gap-4"
+          id="t-rail"
+        ></div>
+
+        <!-- Progress — thicker, squared -->
+        <div
+          class="mt-8 h-[3px] max-w-[200px] mx-auto overflow-hidden"
+          style="background: rgba(243, 236, 224, 0.1)"
+        >
+          <div
+            id="t-progress"
+            class="h-full"
+            style="background: #e24328; width: 0%"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const TESTIMONIALS = [
+        {
+          name: "Ngozi Adeyemi",
+          role: "REAP Africa Fellow, Lagos",
+          avatar: "images/mrs muoka ohaeji.jfif  ",
+          quote:
+            "I walked into REAP Africa thinking leadership was a title you earned later. I left knowing it was a muscle I'd already started building — I just needed someone to show me where to push.",
+        },
+        {
+          name: "Kwame Boateng",
+          role: "YouthLED Africa Coordinator, Accra",
+          avatar: "images/chief jerry o patron.jfif",
+          quote:
+            "Nobody handed us a plan and told us to execute it. They handed us the room and the trust. That difference changed how our entire community approaches youth voice now.",
+        },
+        {
+          name: "Amara Chukwu",
+          role: "Vision Incubation Hub Founder, Abuja",
+          avatar: "images/lady ogalabu.jfif",
+          quote:
+            "My idea failed twice before it worked. Most programs would have quietly moved on. Mine sat with me through both failures and made sure the third attempt actually had a chance.",
+        },
+        {
+          name: "Tendai Moyo",
+          role: "International Youth Day Delegate, Harare",
+          avatar: "images/chief odinaka udeze.jfif",
+          quote:
+            "I stood in a room with three thousand young people from a dozen countries who all wanted the same thing I did. That day I stopped feeling like the only one carrying this.",
+        },
+        {
+          name: "Fatima Diallo",
+          role: "REAP Africa Fellow, Dakar",
+          avatar: "images/chief eleanya okoroji patron.jfif",
+          quote:
+            "The mentorship didn't end when the program did. Two years later, my mentor is still the first call I make before any major decision — that's not a workshop, that's a relationship.",
+        },
+      ];
+
+      let current = 0;
+      let autoplayTimer = null;
+      const AUTOPLAY_MS = 6000;
+
+      const stage = document.getElementById("quote-stage");
+      const rail = document.getElementById("t-rail");
+      const progressBar = document.getElementById("t-progress");
+      const indexCurrent = document.getElementById("t-index-current");
+      const indexTotal = document.getElementById("t-index-total");
+
+      indexTotal.textContent = String(TESTIMONIALS.length).padStart(2, "0");
+
+      TESTIMONIALS.forEach((t, i) => {
+        const slide = document.createElement("div");
+        slide.className =
+          "t-slide absolute inset-0 flex flex-col items-start justify-center text-left transition-all duration-700 ease-out";
+        slide.style.opacity = i === 0 ? "1" : "0";
+        slide.style.transform = i === 0 ? "translateY(0)" : "translateY(16px)";
+        slide.style.pointerEvents = i === 0 ? "auto" : "none";
+        slide.innerHTML = `
+      <p class="font-display text-lg sm:text-xl md:text-2xl font-medium leading-relaxed max-w-2xl" style="color:#f3ece0;">
+        ${t.quote}
+      </p>
+      <div class="mt-8 flex items-center gap-3">
+        <img src="${t.avatar}" alt="${t.name}" class="w-11 h-11 object-cover" style="border:1px solid rgba(243,236,224,0.25);">
+        <div class="text-left">
+          <p class="text-sm font-semibold tracking-wide" style="color:#f3ece0;">${t.name}</p>
+          <p class="text-xs uppercase tracking-wider" style="color:#d9a24b;">${t.role}</p>
+        </div>
+      </div>
+    `;
+        stage.appendChild(slide);
+      });
+
+      TESTIMONIALS.forEach((t, i) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.setAttribute("aria-label", `Show testimonial from ${t.name}`);
+        btn.className = "t-thumb relative transition-all duration-400";
+        btn.innerHTML = `<img src="${t.avatar}" alt="" class="w-11 h-11 md:w-12 md:h-12 object-cover transition-all duration-400" style="filter:grayscale(1); opacity:0.4;">
+                      <span class="thumb-ring absolute inset-0 transition-all duration-400" style="box-shadow: inset 0 0 0 2px transparent;"></span>`;
+        btn.addEventListener("click", () => goTo(i, true));
+        rail.appendChild(btn);
+      });
+
+      function render() {
+        document.querySelectorAll(".t-slide").forEach((el, i) => {
+          const active = i === current;
+          el.style.opacity = active ? "1" : "0";
+          el.style.transform = active ? "translateY(0)" : "translateY(16px)";
+          el.style.pointerEvents = active ? "auto" : "none";
+        });
+        document.querySelectorAll(".t-thumb").forEach((el, i) => {
+          const img = el.querySelector("img");
+          const ring = el.querySelector(".thumb-ring");
+          const active = i === current;
+          img.style.filter = active ? "grayscale(0)" : "grayscale(1)";
+          img.style.opacity = active ? "1" : "0.4";
+          el.style.transform = active ? "scale(1.1)" : "scale(1)";
+          ring.style.boxShadow = active
+            ? "inset 0 0 0 2px #e24328"
+            : "inset 0 0 0 2px transparent";
+        });
+        indexCurrent.textContent = String(current + 1).padStart(2, "0");
+      }
+
+      function goTo(index, userInitiated) {
+        current = (index + TESTIMONIALS.length) % TESTIMONIALS.length;
+        render();
+        if (userInitiated) restartAutoplay();
+      }
+
+      function next() {
+        goTo(current + 1);
+      }
+      function prev() {
+        goTo(current - 1);
+      }
+
+      function restartAutoplay() {
+        clearInterval(autoplayTimer);
+        progressBar.style.transition = "none";
+        progressBar.style.width = "0%";
+        requestAnimationFrame(() => {
+          progressBar.style.transition = `width ${AUTOPLAY_MS}ms linear`;
+          progressBar.style.width = "100%";
+        });
+        autoplayTimer = setInterval(() => {
+          goTo(current + 1);
+        }, AUTOPLAY_MS);
+      }
+
+      document.getElementById("t-next").addEventListener("click", () => {
+        next();
+        restartAutoplay();
+      });
+      document.getElementById("t-prev").addEventListener("click", () => {
+        prev();
+        restartAutoplay();
+      });
+
+      const section = document.getElementById("testimonials");
+      section.addEventListener("mouseenter", () => {
+        clearInterval(autoplayTimer);
+        progressBar.style.transition = "none";
+      });
+      section.addEventListener("mouseleave", () => {
+        restartAutoplay();
+      });
+
+      render();
+      restartAutoplay();
+    </script>
+
+    <!-- ===================== CTA BUMPER ===================== -->
+    <section
+      class="relative py-28 md:py-36 overflow-hidden"
+      style="background: #1a1512"
+    >
+      <div
+        class="absolute inset-0 opacity-40"
+        style="
+          background:
+            radial-gradient(
+              circle at 20% 30%,
+              rgba(226, 67, 40, 0.25),
+              transparent 50%
+            ),
+            radial-gradient(
+              circle at 80% 70%,
+              rgba(184, 134, 63, 0.2),
+              transparent 50%
+            );
+        "
+      ></div>
+
+      <div class="relative z-10 max-w-4xl mx-auto px-6 lg:px-10 text-center">
+        <p
+          class="text-[11px] font-bold tracking-[0.3em] uppercase mb-6"
+          style="color: #cb9b51"
+        >
+          Join The Movement
+        </p>
+        <h2
+          class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
+          style="color: #f7f1e6"
+        >
+          You don't need permission to
+          <span class="italic" style="color: #e24328">start leading.</span>
+        </h2>
+        <p
+          class="text-sm sm:text-base leading-relaxed mb-12 max-w-xl mx-auto"
+          style="color: #c9bfb2"
+        >
+          Whether you're ready to grow as a leader, back our work as a partner,
+          or bring us in to speak — there's a place for you in this already.
+        </p>
+
+        <div
+          class="flex flex-col sm:flex-row items-center justify-center gap-4"
+        >
+          <a
+            href="#contact"
+            class="relative inline-flex items-center justify-center gap-2 px-9 py-4 text-[11px] font-bold tracking-[0.18em] uppercase rounded-sm overflow-hidden group"
+            style="
+              background: linear-gradient(
+                120deg,
+                #e24328 0%,
+                #ff6b3d 45%,
+                #cb9b51 100%
+              );
+              background-size: 220% 220%;
+              animation: gradientShift 6s ease infinite;
+              box-shadow: 0 10px 30px -8px rgba(226, 67, 40, 0.5);
+            "
+          >
+            <span class="relative z-10" style="color: #f7f1e6"
+              >Become A Partner →</span
+            >
+          </a>
+          <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 px-9 py-4 text-[11px] font-bold tracking-[0.18em] uppercase rounded-sm transition-all duration-300"
+            style="
+              border: 1px solid rgba(247, 241, 230, 0.3);
+              color: #f7f1e6;
+              background: rgba(247, 241, 230, 0.05);
+            "
+          >
+            Book Us To Speak
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section
+      id="contact"
+      class="relative py-24 md:py-32"
+      style="background: #ffffff"
+    >
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="text-center mb-16 md:mb-20">
+          <p
+            class="text-[11px] font-bold tracking-[0.3em] uppercase mb-5"
+            style="color: #b8863f"
+          >
+            Get In Touch
+          </p>
+          <h2
+            class="font-display text-3xl sm:text-4xl md:text-5xl leading-tight"
+            style="color: #1a1512"
+          >
+            Let's start a
+            <span class="italic" style="color: #e24328">conversation.</span>
+          </h2>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-10 lg:gap-16">
+          <!-- LEFT: Contact info -->
+          <div class="lg:col-span-2 space-y-8">
+            <div class="flex items-start gap-4">
+              <div
+                class="w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0"
+                style="border: 1px solid rgba(26, 21, 18, 0.14)"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  style="color: #b8863f"
+                >
+                  <path
+                    d="M3 8l9 6 9-6M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="text-[10px] uppercase tracking-widest font-semibold mb-1"
+                  style="color: #6b6259"
+                >
+                  Email
+                </p>
+                <a
+                  href="mailto:hello@visionalivefoundation.org"
+                  class="text-base font-medium"
+                  style="color: #1a1512"
+                  >hello@visionalivefoundation.org</a
+                >
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0"
+                style="border: 1px solid rgba(26, 21, 18, 0.14)"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  style="color: #b8863f"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="text-[10px] uppercase tracking-widest font-semibold mb-1"
+                  style="color: #6b6259"
+                >
+                  Phone
+                </p>
+                <a
+                  href="tel:+2340000000000"
+                  class="text-base font-medium"
+                  style="color: #1a1512"
+                  >+234 000 000 0000</a
+                >
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0"
+                style="border: 1px solid rgba(26, 21, 18, 0.14)"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  style="color: #b8863f"
+                >
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="10"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="text-[10px] uppercase tracking-widest font-semibold mb-1"
+                  style="color: #6b6259"
+                >
+                  Location
+                </p>
+                <p class="text-base font-medium" style="color: #1a1512">
+                  Lagos, Nigeria
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 flex items-center gap-4"
+              style="border-top: 1px solid rgba(26, 21, 18, 0.08)"
+            >
+              <a
+                href="#"
+                aria-label="Instagram"
+                class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:border-[#E24328]"
+                style="border: 1px solid rgba(26, 21, 18, 0.14); color: #1a1512"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" />
+                </svg>
+              </a>
+              <a
+                href="#"
+                aria-label="X / Twitter"
+                class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:border-[#E24328]"
+                style="border: 1px solid rgba(26, 21, 18, 0.14); color: #1a1512"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18.9 2H22l-7.6 8.7L23.3 22h-7.1l-5.6-6.8L4 22H1l8.1-9.3L1 2h7.3l5 6.2L18.9 2z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 hover:border-[#E24328]"
+                style="border: 1px solid rgba(26, 21, 18, 0.14); color: #1a1512"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M6.94 5a2 2 0 11-4-.002 2 2 0 014 .002zM7 8.48H3V21h4V8.48zM13.5 8.48H9.75V21h3.7v-6.3c0-1.7.32-3.34 2.42-3.34 2.07 0 2.1 1.94 2.1 3.44V21H22v-7.02c0-3.6-.78-6.36-4.98-6.36-2 0-3.34 1.1-3.9 2.14h-.05V8.48H13.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: Form -->
+          <div class="lg:col-span-3">
+            <form
+              class="space-y-5"
+              onsubmit="
+                event.preventDefault();
+                this.querySelector('.form-success').classList.remove('hidden');
+                this.reset();
+              "
+            >
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label
+                    class="block text-[10px] uppercase tracking-widest font-semibold mb-2"
+                    style="color: #6b6259"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    required
+                    class="w-full px-4 py-3.5 rounded-sm text-sm outline-none transition-all duration-300 focus:border-[#E24328]"
+                    style="
+                      border: 1px solid rgba(26, 21, 18, 0.14);
+                      color: #1a1512;
+                      background: #ffffff;
+                    "
+                    placeholder="Your name"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="block text-[10px] uppercase tracking-widest font-semibold mb-2"
+                    style="color: #6b6259"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    required
+                    class="w-full px-4 py-3.5 rounded-sm text-sm outline-none transition-all duration-300 focus:border-[#E24328]"
+                    style="
+                      border: 1px solid rgba(26, 21, 18, 0.14);
+                      color: #1a1512;
+                      background: #ffffff;
+                    "
+                    placeholder="you@email.com"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label
+                  class="block text-[10px] uppercase tracking-widest font-semibold mb-2"
+                  style="color: #6b6259"
+                  >I'm reaching out about</label
+                >
+                <select
+                  class="w-full px-4 py-3.5 rounded-sm text-sm outline-none transition-all duration-300 focus:border-[#E24328]"
+                  style="
+                    border: 1px solid rgba(26, 21, 18, 0.14);
+                    color: #1a1512;
+                    background: #ffffff;
+                  "
+                >
+                  <option>Joining a program</option>
+                  <option>Becoming a partner</option>
+                  <option>Booking a speaker</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+
+              <div>
+                <label
+                  class="block text-[10px] uppercase tracking-widest font-semibold mb-2"
+                  style="color: #6b6259"
+                  >Message</label
+                >
+                <textarea
+                  required
+                  rows="5"
+                  class="w-full px-4 py-3.5 rounded-sm text-sm outline-none transition-all duration-300 focus:border-[#E24328] resize-none"
+                  style="
+                    border: 1px solid rgba(26, 21, 18, 0.14);
+                    color: #1a1512;
+                    background: #ffffff;
+                  "
+                  placeholder="Tell us a bit about what you have in mind"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-9 py-4 text-[11px] font-bold tracking-[0.18em] uppercase rounded-sm transition-all duration-300 hover:-translate-y-0.5"
+                style="
+                  background: #e24328;
+                  color: #f7f1e6;
+                  box-shadow: 0 10px 24px -8px rgba(226, 67, 40, 0.45);
+                "
+              >
+                Send Message
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </button>
+
+              <p
+                class="form-success hidden text-sm font-medium"
+                style="color: #2e7d32"
+              >
+                Thanks — your message has been noted. We'll get back to you
+                soon.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer style="background: #1a1512">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10 pt-20 pb-10">
+        <div
+          class="grid md:grid-cols-4 gap-12 pb-14"
+          style="border-bottom: 1px solid rgba(247, 241, 230, 0.1)"
+        >
+          <!-- Brand -->
+          <div class="md:col-span-1">
+            <img
+              src="images/iyd-logo-150x150.png"
+              alt="Vision Alive Foundation"
+              class="h-12 w-auto mb-5"
+              style="filter: brightness(0) invert(1)"
+            />
+            <p class="text-sm leading-relaxed" style="color: #c9bfb2">
+              Empowering young Africans to lead, build, and rise — since 2015.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <p
+              class="text-[10px] font-bold uppercase tracking-widest mb-5"
+              style="color: #cb9b51"
+            >
+              Explore
+            </p>
+            <ul class="space-y-3 text-sm">
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >Our Work</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Programs -->
+          <div>
+            <p
+              class="text-[10px] font-bold uppercase tracking-widest mb-5"
+              style="color: #cb9b51"
+            >
+              Programs
+            </p>
+            <ul class="space-y-3 text-sm">
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >REAP Africa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >YouthLED Africa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >Vision Incubation Hub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="color: #c9bfb2"
+                  class="hover:text-[#F7F1E6] transition-colors duration-300"
+                  >International Youth Day</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div>
+            <p
+              class="text-[10px] font-bold uppercase tracking-widest mb-5"
+              style="color: #cb9b51"
+            >
+              Stay Updated
+            </p>
+            <form
+              class="flex"
+              onsubmit="
+                event.preventDefault();
+                this.reset();
+                alert('Subscribed!');
+              "
+            >
+              <input
+                type="email"
+                required
+                placeholder="Your email"
+                class="flex-1 min-w-0 px-4 py-3 text-sm rounded-l-sm outline-none"
+                style="
+                  background: rgba(247, 241, 230, 0.06);
+                  border: 1px solid rgba(247, 241, 230, 0.15);
+                  border-right: none;
+                  color: #f7f1e6;
+                "
+              />
+              <button
+                type="submit"
+                class="px-4 rounded-r-sm flex items-center justify-center transition-colors duration-300"
+                style="background: #e24328"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#F7F1E6"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8"
+        >
+          <p class="text-xs" style="color: #8a8078">
+            © 2026 Vision Alive Foundation. All rights reserved.
+          </p>
+          <div class="flex items-center gap-6 text-xs" style="color: #8a8078">
+            <a
+              href="#"
+              class="hover:text-[#F7F1E6] transition-colors duration-300"
+              >Privacy Policy</a
+            >
+            <a
+              href="#"
+              class="hover:text-[#F7F1E6] transition-colors duration-300"
+              >Terms of Use</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
   </body>
 </html>
